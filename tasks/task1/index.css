@@ -1,0 +1,58 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 50%;
+  border: 10px #1d2120;
+  width: 40%;
+  left: 30%;
+  top: 40%;
+  position: absolute;
+}
+
+.textbox{
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 100%;
+}
+
+button{
+  background-color: green;
+  color: aliceblue;
+  margin:8px 0;
+  cursor: pointer;
+  width: 100%;
+  border: black;
+}
+
+.link{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  padding: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#email{
+  border: 5px solid black;
+  width: 100%;
+}
+
+#pass{
+  border:5px solid black;
+  width: 100%;
+}

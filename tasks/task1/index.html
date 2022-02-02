@@ -7,10 +7,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    
-    <script type="text/javascript">
-        
-    </script>
+<body style="background-color: #73ffff;">
+<div class="flex">
+    <form action="">
+        <h2>Login</h2>
+        <div class="textbox">
+            <input type="email" id="email" placeholder="email" required>
+        </div>
+        <div class="textbox">
+            <input type="password" id="pass" placeholder="pass" required>
+        </div>
+        <button type="submit" onclick="alertbox()">Login</button>
+        <div class="link">
+            <a href="https://www.kjscecodecell.com/" target="_blank">Go to codecell page</a>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    let details=[]
+    function alertbox(){
+        alert("you have loggged in");
+        details.push(document.getElementById("email").value);
+        details.push(document.getElementbyId("pass").value);
+        console.log(details);
+    }
+</script>
 </body>
 </html>
